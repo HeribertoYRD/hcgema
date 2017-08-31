@@ -5,17 +5,17 @@ figure{
 	margin:0px;
 }
 header{
-	background-color:#3c991a;
 	width: 100%;
 	height: 54px;
 	display: flex;
+	background-color:#3c991a;
 	justify-content: space-between;
 
 }
 input{
 width:90%;height: 35px;
 margin:10px;
-border:solid 3px #e1e1e1;
+border:solid 2px #e1e1e1;
 }
 section{
 }
@@ -23,7 +23,7 @@ a{
 	color:#3c991a;
 	text-decoration: none
 }
-.radius, input, .btn-search{
+.radius, input, .btn-search,.pag{
 border-radius: 5px;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
@@ -83,8 +83,8 @@ border-radius: 5px;
 		align-items: center;
 		}
 		.btn-search{
-			border:solid 1px #505a69;
-			padding: 8px;
+			border:solid 2px #505a69;
+			padding: 6px;
 
 		}
 .content-search input{
@@ -95,41 +95,44 @@ border-radius: 5px;
 	background-color: #22272f;
 	border-color: #505a69;
 }
-.slider{
-	height:400px;
+.portada{
 	width: 100%;
-	background-image: url('../images/slide_head.png');
+	background-color:#272d35;
 	}
-	.caption-box{
-		width:25%;
-		min-width:400px;
-		height: 100px;
-		margin-top:280px;
-		margin-left: 20px;
-		padding: 5px;
-		padding-left: 20px;
-		color:#2f3742;
-		background-color:rgba(255,255,255,0.6);
-		position: absolute;
+	.slider{
+		height:400px;
+		width: 100%;
+		background-image: url('../images/slide_head.png');
 		}
-		.caption-box h3{
-			margin-top: 5px;
-			margin-bottom: 2px;
-		}
-		.caption-box h5{
-			margin-top: 5px;
-			margin-bottom: 2px;
-		}
-		.caption-box p{
-			margin-top: 5px;
-			font-size: 13px;
-		}
+		.caption-box{
+			width:15%;
+			min-width:400px;
+			height: 100px;
+			margin-top:280px;
+			margin-left: 20px;
+			padding: 5px;
+			padding-left: 20px;
+			color:#2f3742;
+			background-color:rgba(255,255,255,0.6);
+			position: absolute;
+			}
+			.caption-box h3{
+				margin-top: 5px;
+				margin-bottom: 2px;
+			}
+			.caption-box h5{
+				margin-top: 5px;
+				margin-bottom: 2px;
+			}
+			.caption-box p{
+				margin-top: 5px;
+				font-size: 13px;
+			}
 
 .columnas{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	height: 400px;
 	}
 	.card_post{
 		min-width: 280px;
@@ -174,3 +177,26 @@ border-radius: 5px;
 					font-size: 20px;
 					font-family: 'Roboto';
 				}
+
+.paginacion{
+	border-top:solid 1px lightgray;
+	height: 50px;
+	text-align: center;
+	}
+	.pag{
+		padding: 6px 10px;
+		background-color:#2f3742;
+		display: inline-block;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;	
+		color:#fff;
+		font-size: 12px;
+	}
+	.pag a{
+	}
+	.pag:hover{
+		background-color: #3c991a;
+	}
+
