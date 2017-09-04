@@ -192,13 +192,13 @@ border-radius: 5px;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;	
-		color:#fff;
 		font-size: 12px;
 	}
 	.pag a{
+		color:#fff;
 	}
 	.pag:hover{
 		background-color: #3c991a;
-		color:#fff;
+		color:#fff !important;
 	}
 
