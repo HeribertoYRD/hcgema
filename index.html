@@ -4,13 +4,17 @@
 	<title>HCgema | Practica Platzi</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <link rel="stylesheet" media="(max-width:768px)" href="css/media-query.css"> -->
 </head>
 <body>
 <header id="header"><!-- header -->
 	<figure class="logo"><!-- logo -->
 		<img src="images/logow.png" alt="logow" width="120">
 	</figure><!-- fin logo -->
-	<nav class="menu"><!-- menu -->
+	<!-- colapsar menu -->
+	<span class="btn-colapsar icon-menu" id="btn-colapsar"></span>
+	<nav class="menu" id="menu"><!-- menu -->
 		<ul>
 			<li><a href="#">Inicio</a></li>
 			<li><a href="#">Productos</a></li>
@@ -42,7 +46,7 @@
 		</div>
 	</div>
 </section><!-- fin portada -->
-
+<div class="espaciador"></div>
 <section> <!-- Blogs -->
 	<div class="container columnas">
 		<article class="card_post">
@@ -170,9 +174,9 @@
 
 	</div>
 </section> <!-- fin Blog -->
-
 <section><!-- Paginacion -->
 	<div class="container paginacion">
+		<div class="espaciador"></div>
 		<div class="bt-ant pag"><a href="#">&laquo; Ant.</a></div>
 		<div class="bt-pag pag"><a href="#">1</a></div>
 		<div class="bt-pag pag"><a href="#">2</a></div>
@@ -180,6 +184,7 @@
 		<div class="bt-pro pag"><a href="#">Prox. &raquo;</a></div>
 	</div>	
 </section><!-- fin Paginacion -->
-
+<!-- colocar javascript -->
+<script src="js/menu-colapsado.js"></script>
 </body>
 </html>
